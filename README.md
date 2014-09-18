@@ -53,8 +53,10 @@ ARGUMENTS
 		-q wmicarg1-wmiarg2
 		Arguments for additional WMIC queries beyond the default. WMIC will be called with the following command: 'arg1 get arg2' eg '-q cpu-maxclockspeed' corresponds to 'cpu get maxclockspeed'.
 
+EXAMPLES
+========
 Example 1
-
+---------
 			C:\Users\Administrator> cd Desktop\get_wmi_info\exe
 			C:\Users\Administrator\Desktop\get_wmi_info\exe> get_wmi_info.exe -u administrator -p xxxxx -r 192.168.0.1-192.168.0.10
 			Performing netscan on IP addresses from 192.168.0.1 to 192.168.0.10
@@ -66,7 +68,7 @@ Example 1
 			Completed. View results in results.csv
 
 Example 2
-
+---------
 			C:\> python get_wmi_info.py -p user123 -i hostslist.txt -o hostsdata.csv
 			Using hostslist.txt for list of machines
 			Querying 4GSEBIA
