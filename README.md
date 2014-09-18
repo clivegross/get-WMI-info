@@ -25,6 +25,7 @@ When given a list of network reachable computers or addresses, will perform a nu
 * os get caption
 * os get installdate
 * nicconfig get ipaddress
+
 Can identify the remote machines to query in one of two ways:
 * Provide a text file (inputfile) containing a list of computers, either hostnames or IP addresses or both.
 * Provide a range of IP addresses (startaddress-endaddress), a Netscan will be performed and WMIC queries will be made to all devices that respond. netscan.exe (included in package) must be in the same directory.
