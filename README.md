@@ -6,9 +6,10 @@ Get Windows WMI information from a list of Windows machines
 
 SYNOPSIS
 ========
-python:
+python
 		python get_wmi_data.py [OPTIONS]
-executable:
+
+executable
 		get_wmi_data.exe [OPTIONS]
 
 DESCRIPTION
